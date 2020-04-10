@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="LearnMath.Views.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Vertical" VerticalOptions="Start">
+                <!-- top controls -->
+                <Image Source="logo_kampus.png" HeightRequest="150" Margin="0,10,0,0"></Image>
+                <Label Text="Latihan dan Pembahasan Matematika" Margin="10,10,10,0" FontSize="18" HorizontalTextAlignment="Center"></Label>
+            </StackLayout>
+
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <!-- middle controls -->
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" VerticalOptions="End">
+                <!-- bottom controls -->
+                <Button x:Name="BtnMateri" Text="Materi" Margin="50,20,50,0" Clicked="BtnMateri_Clicked"></Button>
+                <Button x:Name="BtnProfil" Text="Profile" Margin="50,0,50,10" Clicked="BtnProfil_Clicked"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

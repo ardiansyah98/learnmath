@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnMath.Android", "LearnMath\LearnMath.Android\LearnMath.Android.csproj", "{B960248B-6FE3-4DA0-B4DA-2B699F78BBE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnMath", "LearnMath\LearnMath\LearnMath.csproj", "{534CD8B3-3A2A-4214-9D9F-F71134FEDDFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B960248B-6FE3-4DA0-B4DA-2B699F78BBE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B960248B-6FE3-4DA0-B4DA-2B699F78BBE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B960248B-6FE3-4DA0-B4DA-2B699F78BBE0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B960248B-6FE3-4DA0-B4DA-2B699F78BBE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B960248B-6FE3-4DA0-B4DA-2B699F78BBE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B960248B-6FE3-4DA0-B4DA-2B699F78BBE0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{534CD8B3-3A2A-4214-9D9F-F71134FEDDFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{534CD8B3-3A2A-4214-9D9F-F71134FEDDFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{534CD8B3-3A2A-4214-9D9F-F71134FEDDFE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{534CD8B3-3A2A-4214-9D9F-F71134FEDDFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{534CD8B3-3A2A-4214-9D9F-F71134FEDDFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{534CD8B3-3A2A-4214-9D9F-F71134FEDDFE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31ABC624-70E3-4FBA-83E3-269CD5EDFB57}
+	EndGlobalSection
+EndGlobal
